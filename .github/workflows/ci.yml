@@ -9,9 +9,3 @@ jobs:
     steps:
     - name: fail
       run: exit 1
-
-  pass:
-    runs-on: ubuntu-latest
-    steps:
-    - name: pass
-      run: exit 0
